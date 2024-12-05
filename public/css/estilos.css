@@ -1,0 +1,127 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+}
+.section{
+    min-height: 40rem;
+    background-image: url(../img/hamburgesa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+}
+.main{
+    margin: 3rem;
+}
+footer {
+    height: 10vh;
+    bottom: 0;
+    background-color: #333333;
+    width: 100%;
+    color: #EEEEEE;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 5rem;
+    /*padding-top: 5rem;*/
+}
+.titulo-p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    column-gap: 4rem;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.informacion-nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.menu-opciones{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: rgba(97, 55, 8, 0.87);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20%;
+    font-weight: 500;
+}
+.titulo-catalogo{
+    text-align: center;
+}
+.txt-catalogo {
+    font-size: 20px;
+    text-align: center;
+}
+.formu{
+    margin: 2rem;
+}
+/* mejoras para firestore */
+/* Estilo general del contenedor */
+.contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f7f6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.container h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Estilo para el checkbox */
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+    accent-color: #4caf50; /* Cambia el color del checkbox */
+}
+
+/* Estilo para el texto junto al checkbox (opcional) */
+.container label {
+    font-size: 1rem;
+    color: #444;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Hover y transición para los elementos */
+.container p:hover,
+.container h1:hover {
+    color: #4caf50; /* Cambia de color al pasar el mouse */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Espaciado extra para el checkbox */
+input[type="checkbox"] {
+    margin: 20px;
+}
+.IoT{
+    background-image: url(../img/pexels-conojeghuo-175773.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: auto;
+}
